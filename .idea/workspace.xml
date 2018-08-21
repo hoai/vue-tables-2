@@ -2,142 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27a27b54-b548-44be-a755-01667cf0cdb2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/bus.js" afterPath="$PROJECT_DIR$/compiled/bus.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/all-columns.js" afterPath="$PROJECT_DIR$/compiled/computed/all-columns.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/colspan.js" afterPath="$PROJECT_DIR$/compiled/computed/colspan.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/custom-q.js" afterPath="$PROJECT_DIR$/compiled/computed/custom-q.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/filterable-columns.js" afterPath="$PROJECT_DIR$/compiled/computed/filterable-columns.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/filtered-data.js" afterPath="$PROJECT_DIR$/compiled/computed/filtered-data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/filtered-query.js" afterPath="$PROJECT_DIR$/compiled/computed/filtered-query.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/has-child-row.js" afterPath="$PROJECT_DIR$/compiled/computed/has-child-row.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/has-generic-filter.js" afterPath="$PROJECT_DIR$/compiled/computed/has-generic-filter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/list-columns-object.js" afterPath="$PROJECT_DIR$/compiled/computed/list-columns-object.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/opts.js" afterPath="$PROJECT_DIR$/compiled/computed/opts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/q.js" afterPath="$PROJECT_DIR$/compiled/computed/q.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/storage.js" afterPath="$PROJECT_DIR$/compiled/computed/storage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/table-data.js" afterPath="$PROJECT_DIR$/compiled/computed/table-data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/templates-keys.js" afterPath="$PROJECT_DIR$/compiled/computed/templates-keys.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/total-pages.js" afterPath="$PROJECT_DIR$/compiled/computed/total-pages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/config/defaults.js" afterPath="$PROJECT_DIR$/compiled/config/defaults.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/directives/input.js" afterPath="$PROJECT_DIR$/compiled/directives/input.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/directives/select.js" afterPath="$PROJECT_DIR$/compiled/directives/select.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/filters/custom-filters.js" afterPath="$PROJECT_DIR$/compiled/filters/custom-filters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/filters/format-date.js" afterPath="$PROJECT_DIR$/compiled/filters/format-date.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/filters/highlight-matches.js" afterPath="$PROJECT_DIR$/compiled/filters/highlight-matches.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/filters/option-text.js" afterPath="$PROJECT_DIR$/compiled/filters/option-text.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/helpers/array-diff.js" afterPath="$PROJECT_DIR$/compiled/helpers/array-diff.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/helpers/is-empty.js" afterPath="$PROJECT_DIR$/compiled/helpers/is-empty.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/helpers/is-valid-moment-object.js" afterPath="$PROJECT_DIR$/compiled/helpers/is-valid-moment-object.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/helpers/object-filled-keys-count.js" afterPath="$PROJECT_DIR$/compiled/helpers/object-filled-keys-count.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/helpers/object-keys.js" afterPath="$PROJECT_DIR$/compiled/helpers/object-keys.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/helpers/ucfirst.js" afterPath="$PROJECT_DIR$/compiled/helpers/ucfirst.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/index.js" afterPath="$PROJECT_DIR$/compiled/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/apply-filters.js" afterPath="$PROJECT_DIR$/compiled/methods/apply-filters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/child-row-toggler-class.js" afterPath="$PROJECT_DIR$/compiled/methods/child-row-toggler-class.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/client-search.js" afterPath="$PROJECT_DIR$/compiled/methods/client-search.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/column-class.js" afterPath="$PROJECT_DIR$/compiled/methods/column-class.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/currently-sorted.js" afterPath="$PROJECT_DIR$/compiled/methods/currently-sorted.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/date-format.js" afterPath="$PROJECT_DIR$/compiled/methods/date-format.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/default-sort.js" afterPath="$PROJECT_DIR$/compiled/methods/default-sort.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/dispatch.js" afterPath="$PROJECT_DIR$/compiled/methods/dispatch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/display.js" afterPath="$PROJECT_DIR$/compiled/methods/display.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/filterable.js" afterPath="$PROJECT_DIR$/compiled/methods/filterable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-child-row-template.js" afterPath="$PROJECT_DIR$/compiled/methods/get-child-row-template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-column-name.js" afterPath="$PROJECT_DIR$/compiled/methods/get-column-name.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-data.js" afterPath="$PROJECT_DIR$/compiled/methods/get-data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-group-slot.js" afterPath="$PROJECT_DIR$/compiled/methods/get-group-slot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-heading-tooltip.js" afterPath="$PROJECT_DIR$/compiled/methods/get-heading-tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-heading.js" afterPath="$PROJECT_DIR$/compiled/methods/get-heading.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-initial-date-range.js" afterPath="$PROJECT_DIR$/compiled/methods/get-initial-date-range.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-name.js" afterPath="$PROJECT_DIR$/compiled/methods/get-name.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-open-child-rows.js" afterPath="$PROJECT_DIR$/compiled/methods/get-open-child-rows.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-response-data.js" afterPath="$PROJECT_DIR$/compiled/methods/get-response-data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-sort-fn.js" afterPath="$PROJECT_DIR$/compiled/methods/get-sort-fn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-value.js" afterPath="$PROJECT_DIR$/compiled/methods/get-value.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/has-date-filters.js" afterPath="$PROJECT_DIR$/compiled/methods/has-date-filters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/init-custom-filters.js" afterPath="$PROJECT_DIR$/compiled/methods/init-custom-filters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/init-date-filters.js" afterPath="$PROJECT_DIR$/compiled/methods/init-date-filters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/init-options.js" afterPath="$PROJECT_DIR$/compiled/methods/init-options.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/init-order-by.js" afterPath="$PROJECT_DIR$/compiled/methods/init-order-by.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/init-pagination.js" afterPath="$PROJECT_DIR$/compiled/methods/init-pagination.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/init-query.js" afterPath="$PROJECT_DIR$/compiled/methods/init-query.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/init-state.js" afterPath="$PROJECT_DIR$/compiled/methods/init-state.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/initial-order-ascending.js" afterPath="$PROJECT_DIR$/compiled/methods/initial-order-ascending.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/is-date-filter.js" afterPath="$PROJECT_DIR$/compiled/methods/is-date-filter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/is-list-filter.js" afterPath="$PROJECT_DIR$/compiled/methods/is-list-filter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/is-text-filter.js" afterPath="$PROJECT_DIR$/compiled/methods/is-text-filter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/on-pagination.js" afterPath="$PROJECT_DIR$/compiled/methods/on-pagination.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/only-column.js" afterPath="$PROJECT_DIR$/compiled/methods/only-column.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/order-by-column.js" afterPath="$PROJECT_DIR$/compiled/methods/order-by-column.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/refresh.js" afterPath="$PROJECT_DIR$/compiled/methods/refresh.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/register-client-filters.js" afterPath="$PROJECT_DIR$/compiled/methods/register-client-filters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/register-server-filters.js" afterPath="$PROJECT_DIR$/compiled/methods/register-server-filters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/render.js" afterPath="$PROJECT_DIR$/compiled/methods/render.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/row-was-clicked.js" afterPath="$PROJECT_DIR$/compiled/methods/row-was-clicked.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/send-request.js" afterPath="$PROJECT_DIR$/compiled/methods/send-request.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/server-search.js" afterPath="$PROJECT_DIR$/compiled/methods/server-search.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/set-columns-dropdown-close-listener.js" afterPath="$PROJECT_DIR$/compiled/methods/set-columns-dropdown-close-listener.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/set-data.js" afterPath="$PROJECT_DIR$/compiled/methods/set-data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/set-date-filter-text.js" afterPath="$PROJECT_DIR$/compiled/methods/set-date-filter-text.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/set-datepicker-text.js" afterPath="$PROJECT_DIR$/compiled/methods/set-datepicker-text.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/set-filter.js" afterPath="$PROJECT_DIR$/compiled/methods/set-filter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/set-filters-dom.js" afterPath="$PROJECT_DIR$/compiled/methods/set-filters-dom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/set-limit.js" afterPath="$PROJECT_DIR$/compiled/methods/set-limit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/set-order.js" afterPath="$PROJECT_DIR$/compiled/methods/set-order.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/set-page.js" afterPath="$PROJECT_DIR$/compiled/methods/set-page.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/set-user-multi-sort.js" afterPath="$PROJECT_DIR$/compiled/methods/set-user-multi-sort.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/sortable-chevron-class.js" afterPath="$PROJECT_DIR$/compiled/methods/sortable-chevron-class.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/sortable-class.js" afterPath="$PROJECT_DIR$/compiled/methods/sortable-class.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/sortable.js" afterPath="$PROJECT_DIR$/compiled/methods/sortable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/toggle-child-row.js" afterPath="$PROJECT_DIR$/compiled/methods/toggle-child-row.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/toggle-column.js" afterPath="$PROJECT_DIR$/compiled/methods/toggle-column.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/toggle-columns-dropdown.js" afterPath="$PROJECT_DIR$/compiled/methods/toggle-columns-dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/toggle-group-direction.js" afterPath="$PROJECT_DIR$/compiled/methods/toggle-group-direction.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/transform-date-strings-to-moment.js" afterPath="$PROJECT_DIR$/compiled/methods/transform-date-strings-to-moment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/update-state.js" afterPath="$PROJECT_DIR$/compiled/methods/update-state.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/mixins/before-destroy.js" afterPath="$PROJECT_DIR$/compiled/mixins/before-destroy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/mixins/computed.js" afterPath="$PROJECT_DIR$/compiled/mixins/computed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/mixins/created.js" afterPath="$PROJECT_DIR$/compiled/mixins/created.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/mixins/data.js" afterPath="$PROJECT_DIR$/compiled/mixins/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/mixins/directives.js" afterPath="$PROJECT_DIR$/compiled/mixins/directives.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/mixins/methods.js" afterPath="$PROJECT_DIR$/compiled/mixins/methods.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/column-filters.js" afterPath="$PROJECT_DIR$/compiled/modules/column-filters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/columns-dropdown.js" afterPath="$PROJECT_DIR$/compiled/modules/columns-dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/date-filter.js" afterPath="$PROJECT_DIR$/compiled/modules/date-filter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/dropdown-item-wrapper.js" afterPath="$PROJECT_DIR$/compiled/modules/dropdown-item-wrapper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/dropdown-pagination-count.js" afterPath="$PROJECT_DIR$/compiled/modules/dropdown-pagination-count.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/dropdown-pagination.js" afterPath="$PROJECT_DIR$/compiled/modules/dropdown-pagination.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/dropdown-wrapper.js" afterPath="$PROJECT_DIR$/compiled/modules/dropdown-wrapper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/headings.js" afterPath="$PROJECT_DIR$/compiled/modules/headings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/list-filter.js" afterPath="$PROJECT_DIR$/compiled/modules/list-filter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/normal-filter.js" afterPath="$PROJECT_DIR$/compiled/modules/normal-filter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/pagination.js" afterPath="$PROJECT_DIR$/compiled/modules/pagination.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/per-page-values.js" afterPath="$PROJECT_DIR$/compiled/modules/per-page-values.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/per-page-wrapper.js" afterPath="$PROJECT_DIR$/compiled/modules/per-page-wrapper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/per-page.js" afterPath="$PROJECT_DIR$/compiled/modules/per-page.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/rows.js" afterPath="$PROJECT_DIR$/compiled/modules/rows.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/sort-control.js" afterPath="$PROJECT_DIR$/compiled/modules/sort-control.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/text-filter.js" afterPath="$PROJECT_DIR$/compiled/modules/text-filter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/slots.js" afterPath="$PROJECT_DIR$/compiled/slots.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/state/data.js" afterPath="$PROJECT_DIR$/compiled/state/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/state/mutations.js" afterPath="$PROJECT_DIR$/compiled/state/mutations.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/state/normal.js" afterPath="$PROJECT_DIR$/compiled/state/normal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/state/register-module.js" afterPath="$PROJECT_DIR$/compiled/state/register-module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/state/state.js" afterPath="$PROJECT_DIR$/compiled/state/state.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/state/vuex.js" afterPath="$PROJECT_DIR$/compiled/state/vuex.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/table.js" afterPath="$PROJECT_DIR$/compiled/table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/template-compiler.js" afterPath="$PROJECT_DIR$/compiled/template-compiler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/templates/default.js" afterPath="$PROJECT_DIR$/compiled/templates/default.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/templates/footer-pagination.js" afterPath="$PROJECT_DIR$/compiled/templates/footer-pagination.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/themes/bootstrap3.js" afterPath="$PROJECT_DIR$/compiled/themes/bootstrap3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/themes/bootstrap4.js" afterPath="$PROJECT_DIR$/compiled/themes/bootstrap4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/themes/bulma.js" afterPath="$PROJECT_DIR$/compiled/themes/bulma.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/v-client-table.js" afterPath="$PROJECT_DIR$/compiled/v-client-table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/v-server-table.js" afterPath="$PROJECT_DIR$/compiled/v-server-table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/vue-tables-2.min.js" afterPath="$PROJECT_DIR$/dist/vue-tables-2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -149,21 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
+            <state relative-caret-position="1122">
               <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2684">
-              <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -174,26 +30,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
               <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1138">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VueTablesInterface.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/PHP/VueTablesInterface.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -219,7 +55,151 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="14" />
+                <folding>
+                  <marker date="1534819854752" expanded="true" signature="4599:4698" ph="..." />
+                  <marker date="1534819854752" expanded="true" signature="4842:5258" ph="{&quot;el&quot;: &quot;##people&quot;...}" />
+                  <marker date="1534819854752" expanded="true" signature="4873:5256" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="4934:5185" ph="[...]" />
+                  <marker date="1534819854752" expanded="true" signature="5204:5250" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="6370:6710" ph="[...]" />
+                  <marker date="1534819854752" expanded="true" signature="6375:6479" ph="{&quot;value&quot;: 'Africa'...}" />
+                  <marker date="1534819854752" expanded="true" signature="6412:6474" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="6484:6585" ph="{&quot;value&quot;: 'Asia'...}" />
+                  <marker date="1534819854752" expanded="true" signature="6519:6580" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="6590:6695" ph="{&quot;value&quot;: 'Europe'...}" />
+                  <marker date="1534819854752" expanded="true" signature="6627:6690" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="6777:6872" ph="..." />
+                  <marker date="1534819854752" expanded="true" signature="6918:7013" ph="..." />
+                  <marker date="1534819854752" expanded="true" signature="7047:7191" ph="{&quot;el&quot;: &quot;##people&quot;...}" />
+                  <marker date="1534819854752" expanded="true" signature="7078:7189" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="7137:7183" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="7905:8109" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="7944:8107" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="7981:8017" ph="{&quot;params&quot;: data...}" />
+                  <marker date="1534819854752" expanded="true" signature="8038:8088" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="10300:10409" ph="..." />
+                  <marker date="1534819854752" expanded="true" signature="10956:11175" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="10995:11173" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="11028:11155" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="11074:11145" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="11646:11714" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="11744:11813" ph="..." />
+                  <marker date="1534819854752" expanded="true" signature="11788:11804" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="12245:12446" ph="{&quot;template&quot;: `&lt;a class='delete' @click='erase'&gt;&lt;/a&gt;`...}" />
+                  <marker date="1534819854752" expanded="true" signature="12355:12444" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="12373:12438" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="12469:12535" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="12494:12525" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="12664:12731" ph="..." />
+                  <marker date="1534819854752" expanded="true" signature="12741:12806" ph="..." />
+                  <marker date="1534819854752" expanded="true" signature="12760:12797" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="12837:12906" ph="..." />
+                  <marker date="1534819854752" expanded="true" signature="12881:12897" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="13642:13766" ph="..." />
+                  <marker date="1534819854752" expanded="true" signature="13829:13946" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="13870:13936" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="14071:14124" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="14384:14507" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="14555:14576" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="14622:14643" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="16185:16208" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="16483:16556" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="16523:16554" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="19416:19556" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="19428:19554" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="19449:19548" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="20032:20140" ph="[...]" />
+                  <marker date="1534819854752" expanded="true" signature="20033:20139" ph="{&quot;name&quot;: 'alphabet'...}" />
+                  <marker date="1534819854752" expanded="true" signature="20093:20137" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="20793:21211" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="20838:21209" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="20856:21203" ph="[...]" />
+                  <marker date="1534819854752" expanded="true" signature="20857:20923" ph="{&quot;id&quot;: 1...}" />
+                  <marker date="1534819854752" expanded="true" signature="20937:21030" ph="{&quot;id&quot;: 2...}" />
+                  <marker date="1534819854752" expanded="true" signature="21044:21112" ph="{&quot;id&quot;: 3...}" />
+                  <marker date="1534819854752" expanded="true" signature="21126:21193" ph="{&quot;id&quot;: 4...}" />
+                  <marker date="1534819854752" expanded="true" signature="22427:22763" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="22460:22761" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="22493:22755" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="23241:23501" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="23269:23491" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="23285:23485" ph="[...]" />
+                  <marker date="1534819854752" expanded="true" signature="23299:23377" ph="{&quot;column&quot;: 'age'...}" />
+                  <marker date="1534819854752" expanded="true" signature="23391:23475" ph="{&quot;column&quot;: 'birth_date'...}" />
+                  <marker date="1534819854752" expanded="true" signature="25588:25643" ph="{...}" />
+                  <marker date="1534819854752" expanded="true" signature="25679:25775" ph="..." />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".babelrc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.babelrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Vue Tables 2</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Vue Tables 2 Main</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -230,6 +210,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/compiled/config/defaults.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/bower.json" />
       </list>
     </option>
   </component>
@@ -459,15 +441,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534818534741</updated>
-      <workItem from="1534818535950" duration="963000" />
+      <workItem from="1534818535950" duration="1356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="963000" />
+    <option name="totallyTimeSpent" value="1356000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18305598" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -549,10 +531,134 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="14" />
+            <folding>
+              <marker date="1534819854752" expanded="true" signature="4599:4698" ph="..." />
+              <marker date="1534819854752" expanded="true" signature="4842:5258" ph="{&quot;el&quot;: &quot;##people&quot;...}" />
+              <marker date="1534819854752" expanded="true" signature="4873:5256" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="4934:5185" ph="[...]" />
+              <marker date="1534819854752" expanded="true" signature="5204:5250" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="6370:6710" ph="[...]" />
+              <marker date="1534819854752" expanded="true" signature="6375:6479" ph="{&quot;value&quot;: 'Africa'...}" />
+              <marker date="1534819854752" expanded="true" signature="6412:6474" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="6484:6585" ph="{&quot;value&quot;: 'Asia'...}" />
+              <marker date="1534819854752" expanded="true" signature="6519:6580" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="6590:6695" ph="{&quot;value&quot;: 'Europe'...}" />
+              <marker date="1534819854752" expanded="true" signature="6627:6690" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="6777:6872" ph="..." />
+              <marker date="1534819854752" expanded="true" signature="6918:7013" ph="..." />
+              <marker date="1534819854752" expanded="true" signature="7047:7191" ph="{&quot;el&quot;: &quot;##people&quot;...}" />
+              <marker date="1534819854752" expanded="true" signature="7078:7189" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="7137:7183" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="7905:8109" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="7944:8107" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="7981:8017" ph="{&quot;params&quot;: data...}" />
+              <marker date="1534819854752" expanded="true" signature="8038:8088" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="10300:10409" ph="..." />
+              <marker date="1534819854752" expanded="true" signature="10956:11175" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="10995:11173" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="11028:11155" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="11074:11145" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="11646:11714" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="11744:11813" ph="..." />
+              <marker date="1534819854752" expanded="true" signature="11788:11804" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="12245:12446" ph="{&quot;template&quot;: `&lt;a class='delete' @click='erase'&gt;&lt;/a&gt;`...}" />
+              <marker date="1534819854752" expanded="true" signature="12355:12444" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="12373:12438" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="12469:12535" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="12494:12525" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="12664:12731" ph="..." />
+              <marker date="1534819854752" expanded="true" signature="12741:12806" ph="..." />
+              <marker date="1534819854752" expanded="true" signature="12760:12797" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="12837:12906" ph="..." />
+              <marker date="1534819854752" expanded="true" signature="12881:12897" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="13642:13766" ph="..." />
+              <marker date="1534819854752" expanded="true" signature="13829:13946" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="13870:13936" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="14071:14124" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="14384:14507" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="14555:14576" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="14622:14643" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="16185:16208" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="16483:16556" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="16523:16554" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="19416:19556" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="19428:19554" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="19449:19548" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="20032:20140" ph="[...]" />
+              <marker date="1534819854752" expanded="true" signature="20033:20139" ph="{&quot;name&quot;: 'alphabet'...}" />
+              <marker date="1534819854752" expanded="true" signature="20093:20137" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="20793:21211" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="20838:21209" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="20856:21203" ph="[...]" />
+              <marker date="1534819854752" expanded="true" signature="20857:20923" ph="{&quot;id&quot;: 1...}" />
+              <marker date="1534819854752" expanded="true" signature="20937:21030" ph="{&quot;id&quot;: 2...}" />
+              <marker date="1534819854752" expanded="true" signature="21044:21112" ph="{&quot;id&quot;: 3...}" />
+              <marker date="1534819854752" expanded="true" signature="21126:21193" ph="{&quot;id&quot;: 4...}" />
+              <marker date="1534819854752" expanded="true" signature="22427:22763" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="22460:22761" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="22493:22755" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="23241:23501" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="23269:23491" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="23285:23485" ph="[...]" />
+              <marker date="1534819854752" expanded="true" signature="23299:23377" ph="{&quot;column&quot;: 'age'...}" />
+              <marker date="1534819854752" expanded="true" signature="23391:23475" ph="{&quot;column&quot;: 'birth_date'...}" />
+              <marker date="1534819854752" expanded="true" signature="25588:25643" ph="{...}" />
+              <marker date="1534819854752" expanded="true" signature="25679:25775" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
+        <state relative-caret-position="1122">
           <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
