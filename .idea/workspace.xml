@@ -2,6 +2,140 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27a27b54-b548-44be-a755-01667cf0cdb2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/bus.js" afterPath="$PROJECT_DIR$/compiled/bus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/all-columns.js" afterPath="$PROJECT_DIR$/compiled/computed/all-columns.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/colspan.js" afterPath="$PROJECT_DIR$/compiled/computed/colspan.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/custom-q.js" afterPath="$PROJECT_DIR$/compiled/computed/custom-q.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/filterable-columns.js" afterPath="$PROJECT_DIR$/compiled/computed/filterable-columns.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/filtered-data.js" afterPath="$PROJECT_DIR$/compiled/computed/filtered-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/filtered-query.js" afterPath="$PROJECT_DIR$/compiled/computed/filtered-query.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/has-child-row.js" afterPath="$PROJECT_DIR$/compiled/computed/has-child-row.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/has-generic-filter.js" afterPath="$PROJECT_DIR$/compiled/computed/has-generic-filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/list-columns-object.js" afterPath="$PROJECT_DIR$/compiled/computed/list-columns-object.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/opts.js" afterPath="$PROJECT_DIR$/compiled/computed/opts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/q.js" afterPath="$PROJECT_DIR$/compiled/computed/q.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/storage.js" afterPath="$PROJECT_DIR$/compiled/computed/storage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/table-data.js" afterPath="$PROJECT_DIR$/compiled/computed/table-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/templates-keys.js" afterPath="$PROJECT_DIR$/compiled/computed/templates-keys.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/computed/total-pages.js" afterPath="$PROJECT_DIR$/compiled/computed/total-pages.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/config/defaults.js" afterPath="$PROJECT_DIR$/compiled/config/defaults.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/directives/input.js" afterPath="$PROJECT_DIR$/compiled/directives/input.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/directives/select.js" afterPath="$PROJECT_DIR$/compiled/directives/select.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/filters/custom-filters.js" afterPath="$PROJECT_DIR$/compiled/filters/custom-filters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/filters/format-date.js" afterPath="$PROJECT_DIR$/compiled/filters/format-date.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/filters/highlight-matches.js" afterPath="$PROJECT_DIR$/compiled/filters/highlight-matches.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/filters/option-text.js" afterPath="$PROJECT_DIR$/compiled/filters/option-text.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/helpers/array-diff.js" afterPath="$PROJECT_DIR$/compiled/helpers/array-diff.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/helpers/is-empty.js" afterPath="$PROJECT_DIR$/compiled/helpers/is-empty.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/helpers/is-valid-moment-object.js" afterPath="$PROJECT_DIR$/compiled/helpers/is-valid-moment-object.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/helpers/object-filled-keys-count.js" afterPath="$PROJECT_DIR$/compiled/helpers/object-filled-keys-count.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/helpers/object-keys.js" afterPath="$PROJECT_DIR$/compiled/helpers/object-keys.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/helpers/ucfirst.js" afterPath="$PROJECT_DIR$/compiled/helpers/ucfirst.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/index.js" afterPath="$PROJECT_DIR$/compiled/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/apply-filters.js" afterPath="$PROJECT_DIR$/compiled/methods/apply-filters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/child-row-toggler-class.js" afterPath="$PROJECT_DIR$/compiled/methods/child-row-toggler-class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/client-search.js" afterPath="$PROJECT_DIR$/compiled/methods/client-search.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/column-class.js" afterPath="$PROJECT_DIR$/compiled/methods/column-class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/currently-sorted.js" afterPath="$PROJECT_DIR$/compiled/methods/currently-sorted.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/date-format.js" afterPath="$PROJECT_DIR$/compiled/methods/date-format.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/default-sort.js" afterPath="$PROJECT_DIR$/compiled/methods/default-sort.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/dispatch.js" afterPath="$PROJECT_DIR$/compiled/methods/dispatch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/display.js" afterPath="$PROJECT_DIR$/compiled/methods/display.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/filterable.js" afterPath="$PROJECT_DIR$/compiled/methods/filterable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-child-row-template.js" afterPath="$PROJECT_DIR$/compiled/methods/get-child-row-template.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-column-name.js" afterPath="$PROJECT_DIR$/compiled/methods/get-column-name.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-data.js" afterPath="$PROJECT_DIR$/compiled/methods/get-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-group-slot.js" afterPath="$PROJECT_DIR$/compiled/methods/get-group-slot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-heading-tooltip.js" afterPath="$PROJECT_DIR$/compiled/methods/get-heading-tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-heading.js" afterPath="$PROJECT_DIR$/compiled/methods/get-heading.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-initial-date-range.js" afterPath="$PROJECT_DIR$/compiled/methods/get-initial-date-range.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-name.js" afterPath="$PROJECT_DIR$/compiled/methods/get-name.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-open-child-rows.js" afterPath="$PROJECT_DIR$/compiled/methods/get-open-child-rows.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-response-data.js" afterPath="$PROJECT_DIR$/compiled/methods/get-response-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-sort-fn.js" afterPath="$PROJECT_DIR$/compiled/methods/get-sort-fn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/get-value.js" afterPath="$PROJECT_DIR$/compiled/methods/get-value.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/has-date-filters.js" afterPath="$PROJECT_DIR$/compiled/methods/has-date-filters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/init-custom-filters.js" afterPath="$PROJECT_DIR$/compiled/methods/init-custom-filters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/init-date-filters.js" afterPath="$PROJECT_DIR$/compiled/methods/init-date-filters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/init-options.js" afterPath="$PROJECT_DIR$/compiled/methods/init-options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/init-order-by.js" afterPath="$PROJECT_DIR$/compiled/methods/init-order-by.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/init-pagination.js" afterPath="$PROJECT_DIR$/compiled/methods/init-pagination.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/init-query.js" afterPath="$PROJECT_DIR$/compiled/methods/init-query.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/init-state.js" afterPath="$PROJECT_DIR$/compiled/methods/init-state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/initial-order-ascending.js" afterPath="$PROJECT_DIR$/compiled/methods/initial-order-ascending.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/is-date-filter.js" afterPath="$PROJECT_DIR$/compiled/methods/is-date-filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/is-list-filter.js" afterPath="$PROJECT_DIR$/compiled/methods/is-list-filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/is-text-filter.js" afterPath="$PROJECT_DIR$/compiled/methods/is-text-filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/on-pagination.js" afterPath="$PROJECT_DIR$/compiled/methods/on-pagination.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/only-column.js" afterPath="$PROJECT_DIR$/compiled/methods/only-column.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/order-by-column.js" afterPath="$PROJECT_DIR$/compiled/methods/order-by-column.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/refresh.js" afterPath="$PROJECT_DIR$/compiled/methods/refresh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/register-client-filters.js" afterPath="$PROJECT_DIR$/compiled/methods/register-client-filters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/register-server-filters.js" afterPath="$PROJECT_DIR$/compiled/methods/register-server-filters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/render.js" afterPath="$PROJECT_DIR$/compiled/methods/render.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/row-was-clicked.js" afterPath="$PROJECT_DIR$/compiled/methods/row-was-clicked.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/send-request.js" afterPath="$PROJECT_DIR$/compiled/methods/send-request.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/server-search.js" afterPath="$PROJECT_DIR$/compiled/methods/server-search.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/set-columns-dropdown-close-listener.js" afterPath="$PROJECT_DIR$/compiled/methods/set-columns-dropdown-close-listener.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/set-data.js" afterPath="$PROJECT_DIR$/compiled/methods/set-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/set-date-filter-text.js" afterPath="$PROJECT_DIR$/compiled/methods/set-date-filter-text.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/set-datepicker-text.js" afterPath="$PROJECT_DIR$/compiled/methods/set-datepicker-text.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/set-filter.js" afterPath="$PROJECT_DIR$/compiled/methods/set-filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/set-filters-dom.js" afterPath="$PROJECT_DIR$/compiled/methods/set-filters-dom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/set-limit.js" afterPath="$PROJECT_DIR$/compiled/methods/set-limit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/set-order.js" afterPath="$PROJECT_DIR$/compiled/methods/set-order.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/set-page.js" afterPath="$PROJECT_DIR$/compiled/methods/set-page.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/set-user-multi-sort.js" afterPath="$PROJECT_DIR$/compiled/methods/set-user-multi-sort.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/sortable-chevron-class.js" afterPath="$PROJECT_DIR$/compiled/methods/sortable-chevron-class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/sortable-class.js" afterPath="$PROJECT_DIR$/compiled/methods/sortable-class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/sortable.js" afterPath="$PROJECT_DIR$/compiled/methods/sortable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/toggle-child-row.js" afterPath="$PROJECT_DIR$/compiled/methods/toggle-child-row.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/toggle-column.js" afterPath="$PROJECT_DIR$/compiled/methods/toggle-column.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/toggle-columns-dropdown.js" afterPath="$PROJECT_DIR$/compiled/methods/toggle-columns-dropdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/toggle-group-direction.js" afterPath="$PROJECT_DIR$/compiled/methods/toggle-group-direction.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/transform-date-strings-to-moment.js" afterPath="$PROJECT_DIR$/compiled/methods/transform-date-strings-to-moment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/methods/update-state.js" afterPath="$PROJECT_DIR$/compiled/methods/update-state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/mixins/before-destroy.js" afterPath="$PROJECT_DIR$/compiled/mixins/before-destroy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/mixins/computed.js" afterPath="$PROJECT_DIR$/compiled/mixins/computed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/mixins/created.js" afterPath="$PROJECT_DIR$/compiled/mixins/created.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/mixins/data.js" afterPath="$PROJECT_DIR$/compiled/mixins/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/mixins/directives.js" afterPath="$PROJECT_DIR$/compiled/mixins/directives.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/mixins/methods.js" afterPath="$PROJECT_DIR$/compiled/mixins/methods.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/column-filters.js" afterPath="$PROJECT_DIR$/compiled/modules/column-filters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/columns-dropdown.js" afterPath="$PROJECT_DIR$/compiled/modules/columns-dropdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/date-filter.js" afterPath="$PROJECT_DIR$/compiled/modules/date-filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/dropdown-item-wrapper.js" afterPath="$PROJECT_DIR$/compiled/modules/dropdown-item-wrapper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/dropdown-pagination-count.js" afterPath="$PROJECT_DIR$/compiled/modules/dropdown-pagination-count.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/dropdown-pagination.js" afterPath="$PROJECT_DIR$/compiled/modules/dropdown-pagination.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/dropdown-wrapper.js" afterPath="$PROJECT_DIR$/compiled/modules/dropdown-wrapper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/headings.js" afterPath="$PROJECT_DIR$/compiled/modules/headings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/list-filter.js" afterPath="$PROJECT_DIR$/compiled/modules/list-filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/normal-filter.js" afterPath="$PROJECT_DIR$/compiled/modules/normal-filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/pagination.js" afterPath="$PROJECT_DIR$/compiled/modules/pagination.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/per-page-values.js" afterPath="$PROJECT_DIR$/compiled/modules/per-page-values.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/per-page-wrapper.js" afterPath="$PROJECT_DIR$/compiled/modules/per-page-wrapper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/per-page.js" afterPath="$PROJECT_DIR$/compiled/modules/per-page.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/rows.js" afterPath="$PROJECT_DIR$/compiled/modules/rows.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/sort-control.js" afterPath="$PROJECT_DIR$/compiled/modules/sort-control.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/text-filter.js" afterPath="$PROJECT_DIR$/compiled/modules/text-filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/slots.js" afterPath="$PROJECT_DIR$/compiled/slots.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/state/data.js" afterPath="$PROJECT_DIR$/compiled/state/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/state/mutations.js" afterPath="$PROJECT_DIR$/compiled/state/mutations.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/state/normal.js" afterPath="$PROJECT_DIR$/compiled/state/normal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/state/register-module.js" afterPath="$PROJECT_DIR$/compiled/state/register-module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/state/state.js" afterPath="$PROJECT_DIR$/compiled/state/state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/state/vuex.js" afterPath="$PROJECT_DIR$/compiled/state/vuex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/table.js" afterPath="$PROJECT_DIR$/compiled/table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/template-compiler.js" afterPath="$PROJECT_DIR$/compiled/template-compiler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/templates/default.js" afterPath="$PROJECT_DIR$/compiled/templates/default.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/templates/footer-pagination.js" afterPath="$PROJECT_DIR$/compiled/templates/footer-pagination.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/themes/bootstrap3.js" afterPath="$PROJECT_DIR$/compiled/themes/bootstrap3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/themes/bootstrap4.js" afterPath="$PROJECT_DIR$/compiled/themes/bootstrap4.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/themes/bulma.js" afterPath="$PROJECT_DIR$/compiled/themes/bulma.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/v-client-table.js" afterPath="$PROJECT_DIR$/compiled/v-client-table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/v-server-table.js" afterPath="$PROJECT_DIR$/compiled/v-server-table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/vue-tables-2.min.js" afterPath="$PROJECT_DIR$/dist/vue-tables-2.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
@@ -15,11 +149,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1604">
-              <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="398">
+              <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -38,8 +172,8 @@
       <file leaf-file-name="webpack.config.dist.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack.config.dist.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="440">
+              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -75,11 +209,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="defaults.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="defaults.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compiled/config/defaults.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1688">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="270">
+              <caret line="98" column="6" lean-forward="false" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -95,6 +229,7 @@
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/package-lock.json" />
+        <option value="$PROJECT_DIR$/compiled/config/defaults.js" />
       </list>
     </option>
   </component>
@@ -105,6 +240,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -242,7 +380,72 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
       <method />
     </configuration>
   </component>
@@ -256,15 +459,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534818534741</updated>
-      <workItem from="1534818535950" duration="119000" />
+      <workItem from="1534818535950" duration="963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119000" />
+    <option name="totallyTimeSpent" value="963000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18305598" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -298,26 +501,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1604">
-          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2684">
           <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.dist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -348,8 +535,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/compiled/config/defaults.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1688">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="270">
+          <caret line="98" column="6" lean-forward="false" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.dist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="19" />
           <folding />
         </state>
       </provider>
