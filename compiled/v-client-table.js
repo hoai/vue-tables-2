@@ -1,6 +1,6 @@
 'use strict';
 
-var _vuePagination = require('vue-pagination-2');
+var _vuePaginationMain = require('vue-pagination-main');
 
 var _vuex = require('./state/vuex');
 
@@ -37,7 +37,7 @@ exports.install = function (Vue, globalOptions, useVuex) {
   var client = _merge2.default.recursive(true, (0, _table2.default)(), {
     name: 'client-table',
     components: {
-      Pagination: _vuePagination.Pagination
+      Pagination: _vuePaginationMain.Pagination
     },
     render: templateCompiler.call(this, template, theme),
     props: {

@@ -243,7 +243,7 @@ var VueTables =
 	}
 
 })(typeof module === 'object' && module && typeof module.exports === 'object' && module.exports);
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(32)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(33)(module)))
 
 /***/ }),
 /* 1 */
@@ -989,14 +989,26 @@ module.exports = Vue;
 /* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Pagination = __webpack_require__(30);
-var PaginationEvent = __webpack_require__(11);
+"use strict";
 
-module.exports = {
-  Pagination:Pagination,
-  PaginationEvent:PaginationEvent
-}
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.PaginationEvent = exports.Pagination = undefined;
+
+var _Pagination = __webpack_require__(30);
+
+var _Pagination2 = _interopRequireDefault(_Pagination);
+
+var _bus = __webpack_require__(11);
+
+var _bus2 = _interopRequireDefault(_bus);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.Pagination = _Pagination2.default;
+exports.PaginationEvent = _bus2.default;
 
 /***/ }),
 /* 11 */
@@ -1004,6 +1016,10 @@ module.exports = {
 
 "use strict";
 
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 
 var _vue = __webpack_require__(9);
 
@@ -1013,7 +1029,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var bus = new _vue2.default();
 
-module.exports = bus;
+exports.default = bus;
+module.exports = exports['default'];
 
 /***/ }),
 /* 12 */
@@ -3570,7 +3587,7 @@ module.exports = {
 "use strict";
 
 
-var _vuePagination = __webpack_require__(10);
+var _vuePaginationMain = __webpack_require__(10);
 
 var _vuex = __webpack_require__(12);
 
@@ -3607,7 +3624,7 @@ exports.install = function (Vue, globalOptions, useVuex) {
   var client = _merge2.default.recursive(true, (0, _table2.default)(), {
     name: 'client-table',
     components: {
-      Pagination: _vuePagination.Pagination
+      Pagination: _vuePaginationMain.Pagination
     },
     render: templateCompiler.call(this, template, theme),
     props: {
@@ -3762,9 +3779,168 @@ exports.install = function (Vue, globalOptions, useVuex) {
 "use strict";
 
 
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _RenderlessPagination = __webpack_require__(31);
+
+var _RenderlessPagination2 = _interopRequireDefault(_RenderlessPagination);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = {
+    components: { RenderlessPagination: _RenderlessPagination2.default },
+    render: function render() {
+
+        return _c('RenderlessPagination', {
+            on: {
+                "paginate": this.paginate
+            },
+            scopedSlots: this._u([{
+                key: "default",
+                fn: function fn(_ref) {
+                    var pages = _ref.pages,
+                        pageEvents = _ref.pageEvents,
+                        setFirstPage = _ref.setFirstPage,
+                        setLastPage = _ref.setLastPage,
+                        setPrevChunk = _ref.setPrevChunk,
+                        setNextChunk = _ref.setNextChunk,
+                        prevChunkProps = _ref.prevChunkProps,
+                        nextChunkProps = _ref.nextChunkProps,
+                        firstPageProps = _ref.firstPageProps,
+                        lastPageProps = _ref.lastPageProps,
+                        pageClasses = _ref.pageClasses,
+                        showPagination = _ref.showPagination,
+                        setPrevPage = _ref.setPrevPage,
+                        setNextPage = _ref.setNextPage,
+                        prevProps = _ref.prevProps,
+                        nextProps = _ref.nextProps,
+                        hasRecords = _ref.hasRecords,
+                        theme = _ref.theme,
+                        texts = _ref.texts,
+                        count = _ref.count;
+
+                    return this._c('div', {
+                        staticClass: "VuePagination",
+                        class: theme.wrapper
+                    }, [this._c('nav', {
+                        class: theme.nav
+                    }, [this._c('ul', {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: showPagination,
+                            expression: "showPagination"
+                        }],
+                        class: theme.list
+                    }, [this._c('li', {
+                        class: theme.firstPage,
+                        on: {
+                            "click": setFirstPage
+                        }
+                    }, [this._c('a', this._b({}, 'a', _extends({}, this.aProps, firstPageProps), false), [this._v(this._s(texts.first))])]), this._c('li', {
+                        class: theme.prevChunk,
+                        on: {
+                            "click": setPrevChunk
+                        }
+                    }, [this._c('a', this._b({}, 'a', _extends({}, this.aProps, prevChunkProps), false), [this._v(this._s(texts.prevChunk))])]), this._c('li', {
+                        class: theme.prev,
+                        on: {
+                            "click": setPrevPage
+                        }
+                    }, [this._c('a', this._b({}, 'a', _extends({}, this.aProps, prevProps), false), [this._v(this._s(texts.prevPage))])]), this._l(pages, function (page) {
+                        return this._c('li', this._g({
+                            key: page,
+                            class: pageClasses(page)
+                        }, pageEvents(page)), [this._c('a', this._b({
+                            class: theme.link
+                        }, 'a', this.aProps, false), [this._v(this._s(page))])]);
+                    }), this._c('li', {
+                        class: theme.next,
+                        on: {
+                            "click": setNextPage
+                        }
+                    }, [this._c('a', this._b({}, 'a', _extends({}, this.aProps, nextProps), false), [this._v(this._s(texts.nextPage))])]), this._c('li', {
+                        class: theme.nextChunk,
+                        on: {
+                            "click": setNextChunk
+                        }
+                    }, [this._c('a', this._b({}, 'a', _extends({}, this.aProps, nextChunkProps), false), [this._v(this._s(texts.nextChunk))])]), this._c('li', {
+                        class: theme.lastPage,
+                        on: {
+                            "click": setLastPage
+                        }
+                    }, [this._c('a', this._b({}, 'a', _extends({}, this.aProps, lastPageProps), false), [this._v(this._s(texts.last))])])], 2), this._c('p', {
+                        directives: [{
+                            name: "show",
+                            rawName: "v-show",
+                            value: hasRecords,
+                            expression: "hasRecords"
+                        }],
+                        class: theme.count
+                    }, [this._v(this._s(count))])])]);
+                }
+            }])
+        });
+    },
+
+    props: {
+        for: {
+            type: String,
+            required: false
+        },
+        page: {
+            type: Number,
+            default: 1
+        },
+        records: {
+            type: Number,
+            required: true
+        },
+        perPage: {
+            type: Number,
+            default: 25
+        },
+        vuex: {
+            type: Boolean
+        },
+        options: {
+            type: Object
+        }
+    },
+    data: function data() {
+        return {
+            aProps: {
+                href: "javascript:void(0);",
+                role: "button"
+            }
+        };
+    },
+    methods: {
+        paginate: function paginate(page) {
+            this.$emit('paginate', page);
+        }
+    }
+};
+module.exports = exports['default'];
+
+/***/ }),
+/* 31 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var _config = __webpack_require__(31);
+var _config = __webpack_require__(32);
 
 var _config2 = _interopRequireDefault(_config);
 
@@ -3776,47 +3952,106 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-var template = __webpack_require__(33);
-var bus = __webpack_require__(11);
-
-
-module.exports = {
-  render: template.call(undefined),
+var bus = __webpack_require__(11).default;
+exports.default = {
   props: {
-    for: {
-      type: String,
-      required: false
-    },
-    records: {
-      type: Number,
-      required: true
-    },
-    perPage: {
-      type: Number,
-      default: 25
-    },
-    vuex: {
-      type: Boolean
-    },
-    options: {
-      type: Object
+    itemClass: {
+      required: false,
+      default: 'VuePagination__pagination-item'
     }
   },
+  render: function render() {
+    var _this = this;
+
+    return this.$scopedSlots.default({
+      showPagination: this.totalPages > 1,
+      pages: this.pages,
+      pageEvents: function pageEvents(page) {
+        return {
+          click: function click() {
+            return _this.setPage(page);
+          },
+          keydown: function keydown(e) {
+            if (e.key === 'ArrowRight') {
+              _this.next();
+            }
+
+            if (e.key === 'ArrowLeft') {
+              _this.prev();
+            }
+          }
+        };
+      },
+      hasEdgeNav: this.opts.edgeNavigation && this.totalChunks > 1,
+      setFirstPage: this.setPage.bind(this, 1),
+      setLastPage: this.setPage.bind(this, this.totalPages),
+      hasChunksNav: this.opts.chunksNavigation === 'fixed',
+      setPrevChunk: this.prevChunk,
+      setNextChunk: this.nextChunk,
+      setPrevPage: this.prev,
+      firstPageProps: {
+        class: this.Theme.link,
+        disabled: this.page === 1
+      },
+      lastPageProps: {
+        class: this.Theme.link,
+        disabled: this.page === this.totalPages
+      },
+      prevProps: {
+        class: this.Theme.link,
+        disabled: !!this.allowedPageClass(this.page - 1)
+      },
+      nextProps: {
+        class: this.Theme.link,
+        disabled: !!this.allowedPageClass(this.page + 1)
+      },
+      pageClasses: function pageClasses(page) {
+        return _this.itemClass + ' ' + _this.Theme.item + ' ' + _this.activeClass(page);
+      },
+      prevChunkProps: {
+        class: this.Theme.link,
+        disabled: !this.allowedChunk(-1)
+      },
+      nextChunkProps: {
+        class: this.Theme.link,
+        disabled: !this.allowedChunk(1)
+      },
+      setNextPage: this.next,
+      theme: {
+        nav: this.Theme.nav,
+        list: 'VuePagination__pagination ' + this.Theme.list,
+        prev: this.itemClass + ' ' + this.itemClass + '-prev-page ' + this.Theme.item + ' ' + this.Theme.prev + ' ' + this.allowedPageClass(this.page - 1),
+        next: this.itemClass + '  ' + this.itemClass + '-next-page ' + this.Theme.item + ' ' + this.Theme.next + ' ' + this.allowedPageClass(this.page + 1),
+        prevChunk: this.itemClass + ' ' + this.Theme.item + ' ' + this.Theme.prev + ' ' + this.itemClass + '-prev-chunk ' + this.allowedChunkClass(-1),
+        nextChunk: this.itemClass + ' ' + this.Theme.item + ' ' + this.Theme.prev + ' ' + this.itemClass + '-prev-chunk ' + this.allowedChunkClass(1),
+        firstPage: this.itemClass + ' ' + this.Theme.item + ' ' + (this.page === 1 ? this.Theme.disabled : '') + ' ' + this.itemClass + '-prev-chunk',
+        lastPage: this.itemClass + ' ' + this.Theme.item + ' ' + (this.page === this.totalPages ? this.Theme.disabled : '') + ' ' + this.itemClass + '-prev-chunk',
+        link: this.Theme.link,
+        page: this.itemClass + ' ' + this.Theme.item,
+        wrapper: this.Theme.wrapper,
+        count: 'VuePagination__count ' + this.Theme.count
+      },
+      hasRecords: this.hasRecords,
+      count: this.count,
+      texts: this.opts.texts
+    });
+  },
+
   created: function created() {
 
-    if (!this.vuex) return;
+    if (!this.Vuex) return;
 
-    if (!this.for) {
+    if (!this.For) {
       throw new Error('vue-pagination-2: The "for" prop is required when using vuex');
     }
 
-    var name = this.for;
+    var name = this.For;
 
     if (this.$store.state[name]) return;
 
-    this.$store.registerModule(this.for, {
+    this.$store.registerModule(this.For, {
       state: {
-        page: 1
+        page: this.Page
       },
       mutations: _defineProperty({}, name + '/PAGINATE', function undefined(state, page) {
         state.page = page;
@@ -3825,13 +4060,18 @@ module.exports = {
   },
   data: function data() {
     return {
-      Page: 1,
-      firstPage: 1
+      Page: this.$parent.page,
+      firstPage: this.$parent.page,
+      For: this.$parent.for,
+      Records: this.$parent.records,
+      PerPage: this.$parent.perPage,
+      Vuex: this.$parent.vuex,
+      Options: this.$parent.options
     };
   },
   computed: {
     opts: function opts() {
-      return (0, _merge2.default)((0, _config2.default)(), this.options);
+      return _merge2.default.recursive((0, _config2.default)(), this.Options);
     },
     Theme: function Theme() {
 
@@ -3852,16 +4092,17 @@ module.exports = {
       return themes[this.opts.theme];
     },
     page: function page() {
-      return this.vuex ? this.$store.state[this.for].page : this.Page;
+      return this.Vuex ? this.$store.state[this.For].page : this.Page;
     },
 
     pages: function pages() {
-      if (!this.records) return [];
+
+      if (!this.Records) return [];
 
       return range(this.paginationStart, this.pagesInCurrentChunk);
     },
     totalPages: function totalPages() {
-      return this.records ? Math.ceil(this.records / this.perPage) : 1;
+      return this.Records ? Math.ceil(this.Records / this.PerPage) : 1;
     },
     totalChunks: function totalChunks() {
       return Math.ceil(this.totalPages / this.opts.chunk);
@@ -3880,6 +4121,10 @@ module.exports = {
     pagesInCurrentChunk: function pagesInCurrentChunk() {
       return this.paginationStart + this.opts.chunk <= this.totalPages ? this.opts.chunk : this.totalPages - this.paginationStart + 1;
     },
+    hasRecords: function hasRecords() {
+      return parseInt(this.Records) > 0;
+    },
+
     count: function count() {
 
       if (/{page}/.test(this.opts.texts.count)) {
@@ -3890,11 +4135,11 @@ module.exports = {
       }
 
       var parts = this.opts.texts.count.split('|');
-      var from = (this.page - 1) * this.perPage + 1;
-      var to = this.page == this.totalPages ? this.records : from + this.perPage - 1;
-      var i = Math.min(this.records == 1 ? 2 : this.totalPages == 1 ? 1 : 0, parts.length - 1);
+      var from = (this.page - 1) * this.PerPage + 1;
+      var to = this.page == this.totalPages ? this.Records : from + this.PerPage - 1;
+      var i = Math.min(this.Records == 1 ? 2 : this.totalPages == 1 ? 1 : 0, parts.length - 1);
 
-      return parts[i].replace('{count}', this.formatNumber(this.records)).replace('{from}', this.formatNumber(from)).replace('{to}', this.formatNumber(to));
+      return parts[i].replace('{count}', this.formatNumber(this.Records)).replace('{from}', this.formatNumber(from)).replace('{to}', this.formatNumber(to));
     }
   },
   methods: {
@@ -3904,17 +4149,23 @@ module.exports = {
       }
     },
     paginate: function paginate(page) {
-      if (this.vuex) {
-        this.$store.commit(this.for + '/PAGINATE', page);
+      var _this2 = this;
+
+      if (this.Vuex) {
+        this.$store.commit(this.For + '/PAGINATE', page);
       } else {
         this.Page = page;
       }
 
       this.$emit('paginate', page);
 
-      if (this.for) {
-        bus.$emit('vue-pagination::' + this.for, page);
+      if (this.For && bus) {
+        bus.$emit('vue-pagination::' + this.For, page);
       }
+
+      this.$nextTick(function () {
+        _this2.$el.querySelector('li.active a').focus();
+      });
     },
 
     next: function next() {
@@ -3973,19 +4224,23 @@ module.exports = {
     }
   },
   beforeDestroy: function beforeDestroy() {
-    bus.$off();
-    bus.$destroy();
+    if (bus) {
+      bus.$off();
+      bus.$destroy();
+    }
   }
 };
+
 
 function range(start, count) {
   return Array.apply(0, Array(count)).map(function (element, index) {
     return index + start;
   });
 }
+module.exports = exports['default'];
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4005,13 +4260,19 @@ exports.default = function () {
         texts: {
             count: 'Showing {from} to {to} of {count} records|{count} records|One record',
             first: 'First',
-            last: 'Last'
+            last: 'Last',
+            nextPage: '>',
+            nextChunk: '>>',
+            prevPage: '<',
+            prevChunk: '<<'
         }
     };
 };
 
+module.exports = exports['default'];
+
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -4037,177 +4298,6 @@ module.exports = function(module) {
 	return module;
 };
 
-
-/***/ }),
-/* 33 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = function () {
-
-  return function (h) {
-
-    var theme = this.Theme;
-    var prevChunk = '';
-    var nextChunk = '';
-    var firstPage = '';
-    var lastPage = '';
-    var items = this.pages.map(function (page) {
-
-      return h(
-        'li',
-        { 'class': 'VuePagination__pagination-item ' + theme.item + ' ' + this.activeClass(page) },
-        [h(
-          'a',
-          { 'class': theme.link + ' ' + this.activeClass(page),
-            attrs: { href: 'javascript:void(0)',
-              role: 'button'
-            },
-            on: {
-              'click': this.setPage.bind(this, page)
-            }
-          },
-          [page]
-        )]
-      );
-    }.bind(this));
-
-    if (this.opts.edgeNavigation && this.totalChunks > 1) {
-      firstPage = h(
-        'li',
-        { 'class': 'VuePagination__pagination-item ' + theme.item + ' ' + (this.page === 1 ? theme.disabled : '') + ' VuePagination__pagination-item-prev-chunk' },
-        [h(
-          'a',
-          { 'class': theme.link,
-            attrs: { href: 'javascript:void(0);',
-              disabled: this.page === 1
-            },
-            on: {
-              'click': this.setPage.bind(this, 1)
-            }
-          },
-          [this.opts.texts.first]
-        )]
-      );
-
-      lastPage = h(
-        'li',
-        { 'class': 'VuePagination__pagination-item ' + theme.item + ' ' + (this.page === this.totalPages ? theme.disabled : '') + ' VuePagination__pagination-item-prev-chunk' },
-        [h(
-          'a',
-          { 'class': theme.link,
-            attrs: { href: 'javascript:void(0);',
-              disabled: this.page === this.totalPages
-            },
-            on: {
-              'click': this.setPage.bind(this, this.totalPages)
-            }
-          },
-          [this.opts.texts.last]
-        )]
-      );
-    }
-
-    if (this.opts.chunksNavigation === 'fixed') {
-
-      prevChunk = h(
-        'li',
-        { 'class': 'VuePagination__pagination-item ' + theme.item + ' ' + theme.prev + ' VuePagination__pagination-item-prev-chunk ' + this.allowedChunkClass(-1) },
-        [h(
-          'a',
-          { 'class': theme.link,
-            attrs: { href: 'javascript:void(0);',
-              disabled: !!this.allowedChunkClass(-1)
-            },
-            on: {
-              'click': this.setChunk.bind(this, -1)
-            }
-          },
-          ['<<']
-        )]
-      );
-
-      nextChunk = h(
-        'li',
-        { 'class': 'VuePagination__pagination-item ' + theme.item + ' ' + theme.next + ' VuePagination__pagination-item-next-chunk ' + this.allowedChunkClass(1) },
-        [h(
-          'a',
-          { 'class': theme.link,
-            attrs: { href: 'javascript:void(0);',
-              disabled: !!this.allowedChunkClass(1)
-            },
-            on: {
-              'click': this.setChunk.bind(this, 1)
-            }
-          },
-          ['>>']
-        )]
-      );
-    }
-
-    return h(
-      'div',
-      { 'class': 'VuePagination ' + theme.wrapper },
-      [h(
-        'nav',
-        { 'class': '' + theme.nav },
-        [h(
-          'ul',
-          {
-            directives: [{
-              name: 'show',
-              value: this.totalPages > 1
-            }],
-
-            'class': theme.list + ' VuePagination__pagination' },
-          [firstPage, prevChunk, h(
-            'li',
-            { 'class': 'VuePagination__pagination-item ' + theme.item + ' ' + theme.prev + ' VuePagination__pagination-item-prev-page ' + this.allowedPageClass(this.page - 1) },
-            [h(
-              'a',
-              { 'class': theme.link,
-                attrs: { href: 'javascript:void(0);',
-                  disabled: !!this.allowedPageClass(this.page - 1)
-                },
-                on: {
-                  'click': this.prev.bind(this)
-                }
-              },
-              ['<']
-            )]
-          ), items, h(
-            'li',
-            { 'class': 'VuePagination__pagination-item ' + theme.item + ' ' + theme.next + ' VuePagination__pagination-item-next-page ' + this.allowedPageClass(this.page + 1) },
-            [h(
-              'a',
-              { 'class': theme.link,
-                attrs: { href: 'javascript:void(0);',
-                  disabled: !!this.allowedPageClass(this.page + 1)
-                },
-                on: {
-                  'click': this.next.bind(this)
-                }
-              },
-              ['>']
-            )]
-          ), nextChunk, lastPage]
-        ), h(
-          'p',
-          {
-            directives: [{
-              name: 'show',
-              value: parseInt(this.records)
-            }],
-
-            'class': 'VuePagination__count ' + theme.count },
-          [this.count]
-        )]
-      )]
-    );
-  };
-};
 
 /***/ }),
 /* 34 */
@@ -11051,7 +11141,9 @@ module.exports = function (h, modules, classes, slots) {
 
   var footerHeadings = this.opts.footerHeadings ? h('tfoot', [h('tr', [modules.headings(classes.right)])]) : '';
 
-  var shouldShowTop = genericFilter || perpage || dropdownPagination || columnsDropdown || slots.beforeFilter || slots.afterFilter || slots.beforeLimit || slots.afterLimit;
+  var shouldShowTop = genericFilter || perpage ||
+  //dropdownPagination ||
+  columnsDropdown || slots.beforeFilter || slots.afterFilter || slots.beforeLimit || slots.afterLimit;
 
   var tableTop = h(
     'div',
@@ -11067,10 +11159,6 @@ module.exports = function (h, modules, classes, slots) {
         'div',
         { 'class': classes.field + ' ' + classes.inline + ' ' + classes.left + ' VueTables__search' },
         [slots.beforeFilter, genericFilter, slots.afterFilter]
-      ), h(
-        'div',
-        { 'class': classes.field + ' ' + classes.inline + ' ' + classes.right + ' VueTables__limit' },
-        [slots.beforeLimit, perpage, slots.afterLimit]
       ), dropdownPagination, columnsDropdown]
     )]
   );
@@ -11090,7 +11178,11 @@ module.exports = function (h, modules, classes, slots) {
       wrapper: classes.row + ' ' + classes.column + ' ' + classes.contentCenter,
       nav: classes.center,
       count: classes.center + ' ' + classes.column
-    })), modules.dropdownPaginationCount()]
+    })), h(
+      'div',
+      { 'class': classes.field + ' ' + classes.inline + ' ' + classes.right + ' VueTables__limit' },
+      [slots.beforeLimit, perpage, slots.afterLimit]
+    ), modules.dropdownPaginationCount()]
   );
 };
 
@@ -12427,7 +12519,7 @@ var _table = __webpack_require__(14);
 
 var _table2 = _interopRequireDefault(_table);
 
-var _vuePagination = __webpack_require__(10);
+var _vuePaginationMain = __webpack_require__(10);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12446,7 +12538,7 @@ exports.install = function (Vue, globalOptions, useVuex) {
   var server = _merge2.default.recursive(true, (0, _table2.default)(), {
     name: 'server-table',
     components: {
-      Pagination: _vuePagination.Pagination
+      Pagination: _vuePaginationMain.Pagination
     },
     render: templateCompiler.call(this, template, theme),
     props: {

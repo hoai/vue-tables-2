@@ -20,7 +20,7 @@ var _table = require('./table');
 
 var _table2 = _interopRequireDefault(_table);
 
-var _vuePagination = require('vue-pagination-2');
+var _vuePaginationMain = require('vue-pagination-main');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -39,7 +39,7 @@ exports.install = function (Vue, globalOptions, useVuex) {
   var server = _merge2.default.recursive(true, (0, _table2.default)(), {
     name: 'server-table',
     components: {
-      Pagination: _vuePagination.Pagination
+      Pagination: _vuePaginationMain.Pagination
     },
     render: templateCompiler.call(this, template, theme),
     props: {
