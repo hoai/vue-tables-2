@@ -64,6 +64,11 @@ module.exports = function (h, modules, classes, slots) {
   ) : '';
 
   var footerHeadings = this.opts.footerHeadings ? h('tfoot', [h('tr', [modules.headings(classes.right)])]) : '';
+  var PagingLimit = h(
+    'div',
+    { 'class': classes.field + ' ' + classes.inline + ' ' + classes.right + ' VueTables__limit' },
+    [slots.beforeLimit, perpage, slots.afterLimit]
+  );
 
   var shouldShowTop = genericFilter || perpage ||
   //dropdownPagination ||
@@ -83,7 +88,7 @@ module.exports = function (h, modules, classes, slots) {
         'div',
         { 'class': classes.field + ' ' + classes.inline + ' ' + classes.left + ' VueTables__search' },
         [slots.beforeFilter, genericFilter, slots.afterFilter]
-      ), columnsDropdown]
+      ), dropdownPagination, columnsDropdown]
     )]
   );
   console.log('dropdownPagination', dropdownPagination);
@@ -103,11 +108,7 @@ module.exports = function (h, modules, classes, slots) {
       wrapper: classes.row + ' ' + classes.column + ' ' + classes.contentCenter,
       nav: classes.center,
       count: classes.center + ' ' + classes.column,
-      dropdownPagination: { dropdownPagination: dropdownPagination }
-    })), h(
-      'div',
-      { 'class': classes.field + ' ' + classes.inline + ' ' + classes.right + ' VueTables__limit' },
-      [slots.beforeLimit, perpage, slots.afterLimit]
-    ), modules.dropdownPaginationCount()]
+      dropdownPagination: { PagingLimit: PagingLimit }
+    })), modules.dropdownPaginationCount()]
   );
 };
