@@ -83,10 +83,11 @@ module.exports = function (h, modules, classes, slots) {
         'div',
         { 'class': classes.field + ' ' + classes.inline + ' ' + classes.left + ' VueTables__search' },
         [slots.beforeFilter, genericFilter, slots.afterFilter]
-      ), dropdownPagination, columnsDropdown]
+      ), columnsDropdown]
     )]
   );
-
+  console.log('dropdownPagination', dropdownPagination);
+  console.log('pagination', modules.pagination);
   return h(
     'div',
     { 'class': "VueTables VueTables--" + this.source },
@@ -101,7 +102,8 @@ module.exports = function (h, modules, classes, slots) {
     ), slots.afterTable, modules.pagination((0, _merge2.default)(classes.pagination, {
       wrapper: classes.row + ' ' + classes.column + ' ' + classes.contentCenter,
       nav: classes.center,
-      count: classes.center + ' ' + classes.column
+      count: classes.center + ' ' + classes.column,
+      dropdownPagination: { dropdownPagination: dropdownPagination }
     })), h(
       'div',
       { 'class': classes.field + ' ' + classes.inline + ' ' + classes.right + ' VueTables__limit' },
