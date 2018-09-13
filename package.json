@@ -1,7 +1,7 @@
 {
   "name": "vue-grid-data",
   "description": "Extend Vue.js 2 grid components",
-  "version": "1.4.82",
+  "version": "1.4.84",
   "keywords": [
     "vue2",
     "vuex",
@@ -25,7 +25,7 @@
     "merge": "^1.2.0",
     "vue": ">=2.0.0",
     "vue-pagination-2": "^1.6",
-    "vue-pagination-main": "^2.1.2",
+    "vue-pagination-main": "^2.1.5",
     "vue-resource": "^0.9.0"
   },
   "babel": {
