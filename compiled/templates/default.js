@@ -96,8 +96,6 @@ module.exports = function (h, modules, classes, slots) {
       ), dropdownPagination, columnsDropdown]
     )]
   );
-  console.log('dropdownPagination', dropdownPagination);
-  console.log('pagination', modules.pagination);
   return h(
     'div',
     { 'class': "VueTables VueTables--" + this.source },
