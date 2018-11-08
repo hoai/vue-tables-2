@@ -25,7 +25,7 @@ module.exports = function (h, modules, classes, slots) {
     ), modules.normalFilter(classes, filterId)]
   ) : '';
 
-  var perpage = perpageValues.length > 1 ? h(
+  var perpage = perpageValues.length > 0 ? h(
     'div',
     { 'class': 'VueTables__limit-field' },
     [h(
@@ -44,7 +44,7 @@ module.exports = function (h, modules, classes, slots) {
       { 'class': classes.field + ' ' + classes.inline + ' ' + classes.right + ' VueTables__dropdown-pagination',
         directives: [{
           name: 'show',
-          value: this.totalPages > 1
+          value: this.totalPages > 0
         }]
       },
       [h(

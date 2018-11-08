@@ -1,7 +1,7 @@
 {
   "name": "vue-grid-data",
   "description": "Extend Vue.js 2 grid components",
-  "version": "1.4.88",
+  "version": "1.4.89",
   "keywords": [
     "vue2",
     "vuex",
