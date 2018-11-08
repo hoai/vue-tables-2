@@ -10,7 +10,7 @@ module.exports = function (h, dropdownPagiantion) {
             { 'class': 'form-group form-inline pull-right VueTables__dropdown-pagination',
                 directives: [{
                     name: 'show',
-                    value: this.totalPages > 1
+                    value: this.totalPages > 0
                 }]
             },
             [h(

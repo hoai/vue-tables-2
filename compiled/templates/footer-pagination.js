@@ -24,7 +24,7 @@ module.exports = function (h, modules, classes, slots) {
     ), modules.normalFilter(classes, filterId)]
   ) : '';
 
-  var perpage = perpageValues.length > 1 ? h(
+  var perpage = perpageValues.length > 0 ? h(
     'div',
     { 'class': 'VueTables__limit-field' },
     [h(
