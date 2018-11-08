@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27a27b54-b548-44be-a755-01667cf0cdb2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compiled/modules/per-page-wrapper.js" afterPath="$PROJECT_DIR$/compiled/modules/per-page-wrapper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/modules/dropdown-pagination.js" afterPath="$PROJECT_DIR$/lib/modules/dropdown-pagination.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/modules/per-page-wrapper.js" afterPath="$PROJECT_DIR$/lib/modules/per-page-wrapper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/modules/per-page.js" afterPath="$PROJECT_DIR$/lib/modules/per-page.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +18,18 @@
       <file leaf-file-name="dropdown-pagination.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/modules/dropdown-pagination.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="484">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compiled/templates/common/template.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="715">
+              <caret line="59" column="79" lean-forward="false" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -41,7 +48,7 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
+            <state relative-caret-position="66">
               <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
               <folding />
             </state>
@@ -51,28 +58,8 @@
       <file leaf-file-name="vue-tables.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/compiled/vue-tables.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="3258" column="3" lean-forward="true" selection-start-line="3258" selection-start-column="3" selection-end-line="3258" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dropdown-item-wrapper.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/modules/dropdown-item-wrapper.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="columns-dropdown.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/modules/columns-dropdown.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-2">
+              <caret line="3258" column="3" lean-forward="false" selection-start-line="3258" selection-start-column="3" selection-end-line="3258" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -101,8 +88,8 @@
       <file leaf-file-name="per-page.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/modules/per-page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="308">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -118,6 +105,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="per-page-wrapper.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/modules/per-page-wrapper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -128,7 +125,6 @@
       <find>177</find>
       <find>VuePagination__count</find>
       <find>vue-pagination-2</find>
-      <find>dropdownPagination</find>
       <find>pagination</find>
       <find>register-module</find>
       <find>m</find>
@@ -144,9 +140,10 @@
       <find>registerVuexModule</find>
       <find>vuex</find>
       <find>beforeLimit</find>
-      <find>limit-field</find>
       <find>perpage</find>
       <find>columnsDropdown</find>
+      <find>limit-field</find>
+      <find>dropdownPagination</find>
     </findStrings>
     <replaceStrings>
       <replace>Vue Tables 2 Main</replace>
@@ -170,6 +167,7 @@
         <option value="$PROJECT_DIR$/lib/templates/footer-pagination.js" />
         <option value="$PROJECT_DIR$/lib/templates/default.js" />
         <option value="$PROJECT_DIR$/lib/modules/dropdown-pagination.js" />
+        <option value="$PROJECT_DIR$/lib/modules/per-page.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -416,12 +414,12 @@
       <workItem from="1540178335388" duration="394000" />
       <workItem from="1540189553348" duration="27000" />
       <workItem from="1541661842832" duration="1410000" />
-      <workItem from="1541666544039" duration="2273000" />
+      <workItem from="1541666544039" duration="3538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72156000" />
+    <option name="totallyTimeSpent" value="73421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-78" width="1936" height="1056" extended-state="6" />
@@ -504,20 +502,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/methods/apply-filters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/methods/client-search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1364">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/methods/column-class.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -762,14 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/modules/per-page-wrapper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/templates/default.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1199">
@@ -850,30 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/modules/per-page-values.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/modules/per-page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/modules/dropdown-pagination.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/templates/footer-pagination.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -884,15 +836,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/compiled/vue-tables.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="3258" column="3" lean-forward="true" selection-start-line="3258" selection-start-column="3" selection-end-line="3258" selection-end-column="3" />
+        <state relative-caret-position="-2">
+          <caret line="3258" column="3" lean-forward="false" selection-start-line="3258" selection-start-column="3" selection-end-line="3258" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/vue-tables-2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="0" column="114851" lean-forward="false" selection-start-line="0" selection-start-column="114851" selection-end-line="0" selection-end-column="114851" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/modules/dropdown-pagination.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compiled/templates/common/template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="59" column="79" lean-forward="false" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/modules/per-page-values.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/modules/per-page-wrapper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/modules/per-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="66">
           <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           <folding />
         </state>
