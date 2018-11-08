@@ -6,7 +6,7 @@ module.exports = function (h) {
     return function (perpageValues, classes, name, perPage) {
         var perpageId = 'VueTables__limit_' + name;
 
-        return perpageValues.length > 1 ? h(
+        return perpageValues.length > 0 ? h(
             'div',
             { 'class': 'VueTables__limit-field' },
             [h(

@@ -28,7 +28,7 @@ module.exports = function (h) {
       { "class": selectClass + " dropdown-pagination",
         directives: [{
           name: "show",
-          value: _this.totalPages > 1
+          value: _this.totalPages > 0
         }],
         attrs: {
           name: "page",
